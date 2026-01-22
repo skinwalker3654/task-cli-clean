@@ -88,7 +88,7 @@ void list_tasks(task_db_t *db) {
     printf("ID | STATUS      | DESCRIPTION\n");
     printf("---+-------------+------------------\n");
     for(int i=0; i<db->counter; i++) {
-        printf("%d | %-16s | %s\n",
+        printf("%-2d | %-11s | %s\n",
                 db->tasks[i].id,
                 make_status_to_string(db->tasks[i].status),
                 db->tasks[i].description);

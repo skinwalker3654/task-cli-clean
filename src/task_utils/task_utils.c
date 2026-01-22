@@ -49,11 +49,11 @@ status_t make_string_to_status(char *string) {
 /*this function prints the help panel so the user can see the commands*/
 void print_cli_usage() {
     printf("Usage:\n");
-    printf("  ./main add <id> \"description\"             | this operation adds a task into the list\n");
+    printf("  ./main add <id> \"description\"          | this operation adds a task into the list\n");
     printf("  ./main remove <id>                     | this operation deletes a task from the list\n");
     printf("  ./main list                            | this operation prints the task list\n");
     printf("  ./main help                            | this operation prints this panel\n");
-    printf("  ./main rename <id> \"new_description\" | this operation changes the old description of a task\n");
+    printf("  ./main rename <id> \"new_description\"   | this operation changes the old description of a task\n");
     printf("  ./main set-status <id> <status>        | this operation changes the status of a task\n\n");
     printf("Available task status: done, pending, in-progress\n");
 }
