@@ -43,6 +43,7 @@ example:
 
 ---
 
+```text
 ## PROJECT LIST:
 task_cli_tool/
     |- src/
@@ -66,6 +67,7 @@ task_cli_tool/
     |- README.md
     |- Makefile
 
+```
 ---
 
 `BY`: skinwalker
