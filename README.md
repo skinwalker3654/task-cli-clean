@@ -60,10 +60,11 @@ task_cli_tool/
     |   |    |- task_storage.h
     |   |
     |   |- task_database/
-    |        |- task_database.c
-    |        |-  task_database.h
+    |   |    |- task_database.c
+    |   |    |-  task_database.h
+    |   |
+    |   |- MAIN.c
     |
-    |- MAIN.c
     |- README.md
     |- Makefile
 
