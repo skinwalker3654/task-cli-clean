@@ -66,6 +66,7 @@ task_cli_tool/
     |   |- MAIN.c
     |
     |- README.md
+    |- LICENSE
     |- Makefile
 
 ```
