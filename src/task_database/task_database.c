@@ -29,17 +29,17 @@ task_db_t *create_database() {
 /*this function frees the database
  * @db: the original database
  * it stops if the database is already unallocated*/
-void free_database(task_db_t *db) {
-    if(!db || !db->tasks) {
+void free_database(task_db_t *database) {
+    if(!database || !database->tasks) {
         return;
     }
 
-    for(int i=0; i<db->counter; i++) 
-        free(db->tasks[i].description);
+    for(int i=0; i<database->counter; i++) 
+        free(database->tasks[i].description);
 
-    free(db->tasks);
-    db->tasks = NULL;
+    free(database->tasks);
+    database->tasks = NULL;
 
-    free(db);
-    db = NULL;
+    free(database);
+    database = NULL;
 }
