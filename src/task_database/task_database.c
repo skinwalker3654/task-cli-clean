@@ -27,7 +27,7 @@ task_db_t *create_database() {
 }
 
 /*this function frees the database
- * @db: the original database
+ * @database: the original database
  * it stops if the database is already unallocated*/
 void free_database(task_db_t *database) {
     if(!database || !database->tasks) {

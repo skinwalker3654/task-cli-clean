@@ -25,6 +25,6 @@ typedef struct task_db_t {
 
 /*OWNER-SHIP MODEL*/
 task_db_t *create_database();
-void free_database(task_db_t *db);
+void free_database(task_db_t *database);
 
 #endif
