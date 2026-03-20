@@ -11,8 +11,8 @@ typedef enum status_t {
 } status_t;
 
 typedef struct task_t {
-    char *description;
     uint32_t id;
+    char *description;
     status_t status;
 } task_t;
 
